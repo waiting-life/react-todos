@@ -1,0 +1,25 @@
+/*item*/
+li {
+  list-style: none;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 5px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li button {
+  cursor: pointer;
+  height: 36px;
+  background-color: red;
+  color: #fff;
+  font-weight: 600;
+}
+li:before {
+  content: initial;
+}
+
+li:last-child {
+  border-bottom: none;
+}
